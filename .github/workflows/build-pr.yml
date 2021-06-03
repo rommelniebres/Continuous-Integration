@@ -1,7 +1,7 @@
 name: Action thru Push
 on:
-    push:
-        branches: '**'
+    pull:
+        branches: [master, develop]
 
 jobs:
     build:
